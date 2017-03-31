@@ -15,4 +15,12 @@ Vim is rock stable and is continuously being developed to become even better. Am
 4) powerful search and replace
 5) integrates with many tools
 
+## Xinit/Xserver
 
+[X Wikipedia page](https://en.wikipedia.org/wiki/X_Window_System)
+
+The X Window System (X11, or shortened to simply X) is a windowing system for bitmap displays, common on UNIX-like computer operating systems.
+
+.xinitrc is read when executing the frontend command "startx" which just calls "xinit" in your terminal. This file determines what happens upon startup of an xserver, such as starting a Window Manager/Desktop Environment session
+
+If you have any display manager such as gdm (Gnome Display Manager) for example, starting the gdm service will handle the X-files (no pun intended) for you.
