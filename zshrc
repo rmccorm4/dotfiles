@@ -99,3 +99,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source ~/.autoenv/activate.sh
+
+mkcd()
+{
+    mkdir -p -- "$1" &&
+      cd -P -- "$1"
+}
