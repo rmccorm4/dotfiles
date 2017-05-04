@@ -54,5 +54,6 @@ fi
 #xterm -geometry 80x20+494-0 &
 #exec xterm -geometry 80x66+0+0 -name login
 
+redshift -l 40.7128:74.0059 &
 xscreensaver &
 exec cinnamon-session
