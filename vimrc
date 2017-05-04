@@ -26,6 +26,7 @@ set tabstop=4
 set autoindent
 syntax on
 
-set background=dark
-colorscheme onedark
+"set background=dark
 "colorscheme elflord
+"colorscheme monokai
+colorscheme ron
