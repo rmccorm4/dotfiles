@@ -5,6 +5,7 @@
   export ZSH=/home/ryan/.oh-my-zsh
   export LANG="en_US.UTF-8"
   export TERM="xterm-256color"	
+  export VISUAL="vim"
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
