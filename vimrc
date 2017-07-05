@@ -23,6 +23,7 @@ set hlsearch
 set ignorecase
 set smartcase
 set tabstop=4
+set shiftwidth=4
 set autoindent
 syntax on
 
