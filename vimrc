@@ -10,23 +10,15 @@
 " properly set to work with the Vim-related packages.
 runtime! archlinux.vim
 
-" If you prefer the old-style vim functionalty, add 'runtime! vimrc_example.vim'
-" Or better yet, read /usr/share/vim/vim80/vimrc_example.vim or the vim manual
-" and configure vim to your own liking!
-
-" do not load defaults if ~/.vimrc is missing
-"let skip_defaults_vim=1
-
 set number
 set incsearch
 set hlsearch
 set ignorecase
 set smartcase
 set tabstop=4
+set shiftwidth=4
 set autoindent
 syntax on
+colorscheme ryan
 
-"set background=dark
-"colorscheme elflord
-"colorscheme monokai
-colorscheme ron
+"colorscheme wal
