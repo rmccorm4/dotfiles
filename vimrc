@@ -19,6 +19,6 @@ set tabstop=4
 set shiftwidth=4
 set autoindent
 syntax on
-colorscheme ryan
+colorscheme pynux
 
 "colorscheme wal
